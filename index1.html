@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            justify-items: center;
+            border: 1px solid grey;
+            flex-wrap: wrap;
+            position:sticky;
+            top:0;
+            background-color: #888888;
+        }
+        .nav1_2{
+            display: flex;
+            justify-content:space-evenly;
+            width:30%;
+            flex-wrap: wrap;
+        }
+        .nav1_2 a{
+            color:black;
+            text-decoration: none;
+        }
+        .nav1_3{
+        display: flex;
+        justify-content: space-evenly;
+        width:10%;
+        }
+        .nav1_2 a:hover{
+            color:orangered;
+        }
+        .nav2{
+            display:flex;
+            flex-wrap:wrap ;
+        }
+        .proj{
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            border:1px solid rgb(221, 220, 220);
+            height:250px;
+            background-color: rgb(229, 225, 225);
+            align-items: center;
+        }
+        .proj1,.proj2,.proj3{
+            display:flex;
+            gap:20px;
+        }
+        .proj img{
+            border:1px solid rgb(219, 217, 217);
+            border-radius:80px;
+            height:100px;
+        }
+        .id1{
+            margin-top:70px;
+            margin-left:-230px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .id2{
+            margin-top:70px;
+            margin-left:-218px;
+        }
+        .id3{
+            margin-top:70px;
+            margin-left:-120px;
+        }
+        .cl1{
+           display: flex;
+           flex-wrap: wrap;
+           border:1px solid white;
+           justify-content: center;
+        }
+        .cl2{
+            display:flex;
+            justify-content:space-evenly;
+            border:5px solid red;
+            width:30%;
+        }
+        .c12_1{
+            box-shadow: 0px 0px 10px black;
+            border-radius: 25px;
+            border:2px solid green;
+    
+            
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        
+            
+        }
+        .c12_1 h1 h3 button{
+            text-align: center;
+            margin-top: -10px;
+        }
+       .c12_1>button{
+             background-color:orangered;
+             height:7vw;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             border-radius: 30px;
+             }
+        .part5 {
+        height: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: 2px solid white;
+        background-color: whitesmoke;
+        height: 90%;
+        margin-top:5%;
+      }
+      .prt5 {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .cs1 {
+        border: 4px solid orangered;
+        display: flex;
+        flex-wrap: wrap;
+        display: grid;
+        margin-left: 0.3%;
+        height: 15%;
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+      }
+      .cs1 span {
+        color: orangered;
+      }
+      .part5 h3{
+        font: 40px Arial, sans-serif;
+
+      }
+      .part5 h4{
+        font: 30px Arial, sans-serif;
+      }
+      .part5 p{
+        font: 20px Arial, sans-serif;
+        margin-top:-5%;
+      }
+      .part5_1{
+        border:1px solid whitesmoke ;
+        width:30vw;
+      }
+      .part5_2{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .part5_1 button{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 3%;
+        border-radius:40px;
+        text-decoration: none;
+        background-color: rgba(255, 68, 0, 0.893);
+        color:white;
+      }
+      button:hover{
+        background-color:rgb(22, 21, 21);
+        color:orangered
+      }
+      .d1 button{
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav1_1"><h1><img src="./images/logo1.png" height="40px"></h1></div>
+        <div class="nav1_2">
+            <h1><a href="">Home</a></h1>
+            <h1><a href="">About</a></h1>
+            <h1><a href="">pages</a></h1>
+            <h1><a href="">News</a></h1>
+            <h1><a href="">Shop</a></h1>
+        </div>
+        <div class="nav1_3">
+            <h1><a href=""><img style="color:white" src="./images/market-purchase.svg" height="60%" width="60%"></a></h1>
+            <h1><a href=""><img src="./images/search-alt-1.svg" alt=""  height="60%" width="60%"></a></h1>
+        </div>
+    </div>
+    <div class="nav2" style="position:relative;display:flex;justify-content:center">
+        <img style="position: sticky;top:0" src="./images/hero-bg.jpg" height="100%"alt="">
+        <h2 style="position:absolute;top:40%;left:40%">Fresh & Organic</h2>
+        <h1 style="position:absolute;top:43%;left:36%">Delicious Seasonal Fruits</h1>
+    </div>
+    <div class="proj">
+        <div class="proj1">
+            <img  src="./images/busemoji.png">
+            <h1>Free Shipping</h1><br>
+            <p class="id1" >When order over $75</p>
+            
+        </div>
+        <div class="proj2">
+            <img src="./images/callemoji.png">
+            <h1>24/7 Support</h1><br>
+            <p class="id2"> Get Suppot all day</p>
+        </div>
+        <div class="proj3">
+            <img src="./images/refundemoji.png">
+            <h1>Refund</h1>
+            <p class="id3"> Get refund within 3days!</p>
+        </div>
+    </div>
+    <div class="cls1">
+    <div class="cl1">
+        <h1 style="color:orangered">Our</h1><h1 style="margin-left:5px">Product</h1>
+    </div>
+    <div ><p><h4 style="text-align: center;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.Quo odit natus qui quam mollitia perferendis omnis doloribus! Velit.</h4></p></div>
+    </div>
+    <div class="cl2">
+    <div  class="c12_1" style="border:1px solid white">
+        <img src="./images/product-img-1.jpg" height="30%">
+        <h1><b>Strawberry</b></h1>
+        <p><h3 style="color:#888888">Per Kg</h3></p>
+        <h1>85$</h1>
+        <button><h1> <img src="./images/market-purchase.svg "height="30px" alt="">Add to Cart</h1></button>
+    </div>
+    <div  class="c12_1" style="border:1px solid white">
+        <img src="./images/product-img-2.jpg" height="30%">
+        <h1><b>Straw</b></h1>
+        <p><h3 style="color:#888888">Per Kg</h3></p>
+        <h1>85$</h1>
+    </div>
+    <div  class="c12_1" style="border:1px solid white">
+        <img src="./images/product-img-3.jpg" height="30%">
+        <h1><b>berry</b></h1>
+        <p><h3 style="color:#888888">Per Kg</h3></p>
+        <h1>85$</h1>
+    </div>
+    </div>
+    <div class="part5">
+        <div class="part5_2"><img src="./images/Screenshot (24).png" alt="" /></div>
+        <div class="part5_1">
+          <h3><h style="color:orangered"><b>Deal</h> of the month<b></b></h3>
+          <h4>Hikan Strwaberry</h4>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+            laborum ea? Magni repudiandae deleniti expedita quaerat nemo
+            laboriosam quia doloribus sed praesentium. Ipsa, adipisci beatae. Odio
+            in dolore doloribus necessitatibus!
+          </p>
+          <div class="prt5">
+            <div class="cs1">
+              <h1>
+                <span><center>00</center></span><br />Hours
+              </h1>
+            </div>
+            <div class="cs1">
+              <h1>
+                <span><center>00</center></span><br />Hours
+              </h1>
+            </div>
+            <div class="cs1">
+              <h1>
+                <span><center>00</center></span><br />Hours
+              </h1>
+            </div>
+            <div class="cs1">
+              <h1>
+                <span><center>00</center></span><br />Hours
+              </h1>
+            </div>
+          </div>
+          <div class="d1">
+          <button style="width:30%;">
+              <h1>Add to Cart</h1> 
+          </button>
+          </div>
+        </div>
+      </div>
+    
+
+</body>
+</html>

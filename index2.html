@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* General Body Styles */
+      body {
+        font-family: Arial, sans-serif;
+        box-sizing: border-box;
+      }
+
+      /* Container Styling */
+      .part5 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: 2px solid whitesmoke;
+        background-color: whitesmoke;
+        padding: 2%;
+      }
+
+      /* Left Section Styling (Image) */
+      .part5_2 {
+        flex: 1 1 40%;
+        max-width: 40%;
+      }
+
+      /* Right Section Styling */
+      .part5_1 {
+        flex: 1 1 50%;
+        max-width: 50%;
+        padding: 2%;
+        box-sizing: border-box;
+      }
+
+      .part5_1 h3 {
+        font-size: 2.5rem;
+        color: orangered;
+      }
+
+      .part5_1 h4 {
+        font-size: 1.5rem;
+        margin-top: 0;
+      }
+
+      .part5_1 p {
+        font-size: 1rem;
+        margin-top: 1rem;
+      }
+
+      /* Buttons Styling */
+      .part5_1 button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+        border-radius: 40px;
+        text-decoration: none;
+        background-color: rgba(255, 68, 0, 0.893);
+        padding: 0.5rem 2rem;
+        font-size: 1.2rem;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      .part5_1 button:hover {
+        background-color: rgb(22, 21, 21);
+        color: orangered;
+      }
+
+      /* Countdown Box Styling */
+      .prt5 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:  wrap;
+        margin-top: 2%;
+      }
+
+      .cs1 {
+        display: grid;
+        place-items: center;
+        border: 4px solid orangered;
+        padding: 2rem;
+        margin: 1%;
+        width: 20%;
+        background-color: white;
+      }
+
+      .cs1 h1 {
+        font-size: 2.5rem;
+        color: orangered;
+      }
+
+      .cs1 p {
+        font-size: 1.5rem;
+        color: aqua;
+      }
+
+      /* Media Queries for Responsiveness */
+      @media (max-width: 768px) {
+        .part5 {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .part5_2, .part5_1 {
+          max-width: 100%;
+          flex: 1 1 100%;
+        }
+
+        .prt5 {
+          flex-direction: column;
+          align-items: center;
+        }
+
+       
+      }
+
+      @media (max-width: 480px) {
+        
+
+        .part5_1 button {
+          font-size: 1rem;
+          width: 70%;
+        }
+      }
+      .d1{
+            display: grid;
+            grid-template-columns:repeat(4,1fr);
+            display:flex;
+            gap:1%;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            
+        }
+        .dd1{
+            border:2px solid orangered;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding:1%;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="part5">
+      <div class="part5_2">
+        <img src="./images/Screenshot (24).png" alt="" style="width: 100%; height: auto;"/>
+      </div>
+      <div class="part5_1">
+        <h3 style="color:black"><h style="color:orangered">Deal</h> of the month</h3>
+        <h4>Hikan Strawberry</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+          laborum ea? Magni repudiandae deleniti expedita quaerat nemo
+          laboriosam quia doloribus sed praesentium. Ipsa, adipisci beatae. Odio
+          in dolore doloribus necessitatibus!
+        </p>
+        <div class="d1">
+          <div class="dd1">
+              <span>00</span>
+              <h1>Hours</h1>
+          </div>
+          <div class="dd1" ><span>00</span>
+              <h1>Hours</h1></div>
+          <div class="dd1"><span>00</span>
+              <h1>Hours</h1></div>
+          <div class="dd1"><span>00</span>
+              <h1>Hours</h1>
+      </div>
+      </div>
+      <div class="d1">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>

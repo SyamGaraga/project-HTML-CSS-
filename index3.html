@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      
+      .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: auto;
+        position: sticky;
+        top: 1px;
+        padding: 1vw;
+        background-color: rgb(13, 99, 13);
+        color: white;
+        width: 95vw;
+        justify-content: center;
+        align-content: center;
+      }
+      div ul {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        list-style: none;
+        flex-wrap: wrap;
+      }
+      .img1 {
+        width: 100%;
+      }
+      .div1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        margin: auto;
+        gap: 10px;
+        margin: auto;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        color: black;
+      }
+      .div1 div {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid rgb(199, 229, 199);
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 10px;
+      }
+      .div1 div:hover {
+        background-color: green;
+        color: aliceblue;
+      }
+      .p1 {
+        @media screen and (min-width: 0px) and (max-width: 370px) {
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+      }
+      .div3 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 50px;
+      }
+      .photo {
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 0 4px 12px black (0, 0, 0, 1);
+        border: 2px solid rgb(170, 214, 170);
+        padding: 40px;
+      }
+      .photo img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+      }
+      .div4 {
+        background-color: aquamarine;
+        width: 100%;
+      }
+      .div4 div {
+        justify-content: center;
+        justify-content: center;
+        padding: auto;
+        gap: 10px;
+      }
+      .div4 h3 {
+        display: flex;
+        justify-content: center;
+      }
+      .div4 p {
+        display: flex;
+        justify-content: center;
+        text-transform: capitalize;
+        align-content: center;
+      }
+      .div4 .div4_1 {
+        display: flex;
+        justify-content: center;
+      }
+      .div4_1 p {
+        display: flex;
+        text-align: center;
+      }
+      .div5{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 50px;
+      }
+      .photo1{
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 0 4px 12px black (0, 0, 0, 1);
+      }
+      .photo1 img{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+      }
+      .photo1 img:hover{
+        border: 2px solid rgb(108, 7, 7);
+        
+      }
+     
+
+      
+      footer img{
+        width: 100%;
+      }
+   .anchor:hover{
+        transform: scale(2,2);
+        transition-duration: 2s;
+        color: blueviolet;
+      }
+      .anchor a{
+        text-decoration: none;
+        color: white;
+      }
+      footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    footer a {
+      color: #1abc9c;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    footer .social-icons {
+      margin-top: 10px;
+    }
+    footer .social-icons a {
+      margin: 0 5px;
+      font-size: 20px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="navbar" > 
+      <img
+        class="im2"
+        src="https://speedsolution.in/Farm2Market/images/farm2market_logo1.png"
+        alt=""
+        width="200vw"
+        style="
+          background-color: white;
+          border-radius: 10px;
+          display: flex;
+          margin-right: 70vw;
+          flex-wrap: wrap;
+          flex-direction: column;
+        "
+      />
+
+      <ul class="trans">
+        <li class="anchor"><a href="#home"  >HOME</a></li>
+        <li class="anchor"><a href="#about" >ABOUT</a></li>
+        <li class="anchor"><a href="#product"> PRODUCT</a></li>
+        <li class="anchor"><a href="#gallery">GALLERY</a></li>
+        <li class="anchor"><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+    <div id="home">
+      <img
+        class="img1"
+        src="https://www.demoincele.org/ofm024/upload/slider/banner.jpg"
+        alt=""
+      />
+    </div>
+    <br><br>
+    <div class="div1">
+      <div>
+        <img
+          src="https://media.istockphoto.com/id/908870804/vector/info-icon-green-round-button.jpg?s=170x170&k=20&c=naorH42FG67geBKHSUIr_YEgoJ2X-mBJfTfA0sZahpI="
+          alt=""
+          width="100px"
+          height="100px"
+          style="border-radius: 70px"
+        />
+        <h1
+          style="display: flex; justify-content: center; align-content: center"
+        >
+          24/07 Availability
+        </h1>
+      </div>
+
+      <div>
+        <img
+          src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSz0VpEk3GrMFreBrxYXG5i3b4UPWPXhRoOYZA5IqKhLm40VAL-"
+          alt=""
+          width="100px"
+          height="100px"
+          style="border-radius: 85px"
+        />
+        <h1>Free Transport</h1>
+      </div>
+      <div>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/8057/8057813.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
+        <h1>Fresh & Healthy</h1>
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSspjiSJ-GO7uHe4TqZzWIumdL8D4iIaQ6veAjMEKe9Z1V7PFG-"
+          alt=""
+          width="100px"
+          height="100px"
+          style="border-radius: 85px"
+        />
+        <h1>From Our Farm</h1>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div id="about" style="position: relative; display: ">
+      <img
+        class="img1"
+        src="https://img.freepik.com/premium-photo/indian-farmer-holding-tomato-hands-happy-farmer_898049-93.jpg"
+        alt=""
+      />
+      <p class="p1" style="position: absolute; top: 10px; text-overflow: none">
+        <strong>Our Vision:</strong>
+        At Farm2Market, we envision a thriving agricultural sector in India
+        where farmers are empowered, valued, and directly connected to consumers
+        who appreciate their hard work. Our goal is to eliminate the barriers
+        that have long prevented farmers from receiving fair compensation, thus
+        fostering a sustainable and prosperous farming community. By leveraging
+        technology, we aspire to create a transparent.
+      </p>
+    </div>
+    <div id="product">
+      <h1  style="display: flex; flex-wrap: wrap; justify-content: center">
+        Our Best Seller Product
+      </h1>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center">
+        <p
+          style="
+            justify-content: center;
+            width: 40vw;
+            font-size: large;
+            text-transform: capitalize;
+          "
+        >
+          Discover our top-selling products: premium quality, innovative design,
+          and unbeatable performance, ensuring satisfaction and exceeding
+          customer expectations.
+        </p>
+      </div>
+    </div>
+    <div class="div3">
+      <div class="photo">
+        <img
+          src="https://speedsolution.in/Farm2Market/images/rice-image.avif"
+          alt=""
+        />
+        <div class="info">
+          <p>RICE</p>
+        </div>
+      </div>
+      <div class="photo">
+        <img
+          src="https://speedsolution.in/Farm2Market/images/paddy.jpg"
+          alt=""
+        />
+        <h4>PADDY</h4>
+      </div>
+      <div class="photo">
+        <img
+          src="https://speedsolution.in/Farm2Market/images/wheet.jpg"
+          alt=""
+        />
+        <h4>WHEET</h4>
+      </div>
+      <div class="photo">
+        <img
+          src="https://speedsolution.in/Farm2Market/images/termeric.jpg"
+          alt=""
+        />
+        <h4>GINGER</h4>
+      </div>
+      <div class="photo">
+        <img
+          src="https://image.myupchar.com/377/original/hari-mirch-ke-fayde-in-hindi-2.jpg"
+          alt=""
+        />
+        <h4>CHILLI PAPPER</h4>
+      </div>
+      <div class="photo">  
+        <img
+          src="https://www.thespruce.com/thmb/FYq3vZrO8Tc_xpwyDVtX5N_oQyU=/5750x0/filters:no_upscale():max_bytes(150000):strip_icc()/indeterminate-tomato-variety-1403423-01-bf3ec05de4754840abbd8dc26514bee7.jpg"
+          alt=""
+        />
+        <h4>TOMATO</h4>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="div4">
+      <div>
+        <h3 style="padding: 50px">Our Happy Customers</h3>
+        <p style="margin-top: -20px; padding: 20px">
+          Join our happy customers: enjoying premium quality, innovative design,
+          and unbeatable performance that consistently exceed their
+          expectations.
+        </p>
+        <div class="div4_1" style="background-color: rgb(233, 168, 48)">
+          <img
+            style="background-color: black; padding: 20px"
+            src="https://speedsolution.in/Farm2Market/images/customer1.jpg"
+            alt=""
+            height="300px"
+            width="300px"
+          />
+          <div style="justify-content: center; align-content: center; text-transform: capitalize; font-style: oblique;">
+            <p>
+              Not only was customer support very fast, but the design is very
+              professional. Will definitely be looking for new products in the
+              future from this author.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="gallery" style="text-align: center; padding: 30px;;">
+      <h1>Our Gallery</h1>
+      <p>The Passage Experienced A Surge In Popularity During The 1960s When Again During The 90s As Desktop Publishers</p>
+    </div>
+    <div class="div5">
+      <div class="photo1" >
+        <img src="https://speedsolution.in/Farm2Market/images/veg1.jpg" alt="">
+      </div>
+      <div  class="photo1">
+        <img src="https://speedsolution.in/Farm2Market/images/veg2.jpg" alt="">
+      </div>
+      <div  class="photo1">
+        <img src="https://speedsolution.in/Farm2Market/images/veg3.jpg" alt="">
+      </div>
+      <div  class="photo1">
+        <img src="https://speedsolution.in/Farm2Market/images/fru1.avif" alt="">
+      </div>
+      <div  class="photo1">
+        <img src="https://speedsolution.in/Farm2Market/images/fru2.jpg" alt="">
+      </div>
+      <div  class="photo1">
+        <img src="https://speedsolution.in/Farm2Market/images/fru3.jpg" alt="">
+      </div>
+    </div>
+    <br>
+    <br>
+   
+    <footer id="contact">
+      
+      <p>&copy; 10000 coders. All Rights Reserved.</p>
+      <p>
+          <ul>
+     
+        <a href="#">Privacy Policy</a> | 
+        <a href="#">Terms of Service</a> | 
+        <a href="#">Contact Us</a>
+     
+      </ul>
+      </p>
+      <div class="social-icons">
+        <a href="#">&#x1F30E;</a> 
+        <a href="#">&#x1F4F1;</a> 
+        <a href="#">&#x1F517;</a> 
+      </div>
+        
+      
+  </footer>
+  </body>
+</html>

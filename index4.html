@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>December Sale</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+        }
+
+        .text-content {
+            max-width: 50%;
+            position: absolute;
+            margin-left:5%;
+        }
+
+        .text-content h1 {
+            font-size: 48px;
+            color: #000000;
+        }
+
+        .text-content h1 span {
+            color: #f28a02;
+        }
+
+        .text-content p {
+            font-size: 16px;
+            margin: 20px 0;
+            color: #000000;
+        }
+
+        .text-content .discount {
+            font-size: 36px;
+            color: #f28a02;
+            font-weight: bold;
+            position: absolute;
+        }
+
+
+        .shop-now {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #f28a02;
+            color: #ffffff;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            position: absolute;
+        }
+
+        .image-content {
+            max-width: 45%;
+        }
+
+        .image-content img {
+            width: 100vw;
+            height:70vh;
+            border-radius: 10px;
+
+        }
+        .shop-now:hover{
+            background-color: black;
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-content">
+            <h1>December sale is on!<br>with big <span>Discount...</span></h1>
+            <p>Sale! Upto <span class="discount">50% off</span></p>
+            <a href="#" class="shop-now" >Shop Now</a>
+        </div>
+
+    
+        <div class="image-content">
+            <img src="./images/1.jpg"alt="Strawberries">
+        </div>
+    </div>
+</body>
+</html>
